@@ -1,1 +1,1 @@
-# dataprofiler
+# data-profiler
