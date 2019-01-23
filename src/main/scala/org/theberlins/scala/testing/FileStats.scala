@@ -101,6 +101,6 @@ object FileStats {
         
     val foos: List[Foo] = sql"select * from filestats.foo".map(rs => Foo(rs)).list.apply()
     println("Result " + foos.toString)
-    sys.exit()
+    //sys.exit()
   }
 }

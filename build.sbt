@@ -1,4 +1,3 @@
-import AssemblyKeys._
 
 name := "Simple Project"
 
@@ -20,7 +19,8 @@ libraryDependencies ++= Seq(
 "org.postgresql" % "postgresql" % "9.4-1201-jdbc41"
 )
 
-assemblySettings
+resolvers += Resolver.bintrayIvyRepo("com.eed3si9n", "sbt-plugins")
+
 //scalikejdbcSettings
 
 
